@@ -1,5 +1,5 @@
 body {   
-    background-color: blueviolet;
+    background-color: rgb(6, 4, 39);
     font-family: 'Courier New', Courier, monospace;
     color: azure;
 }
@@ -20,10 +20,13 @@ body {
 }
 .col-9 {
 }
+.col-12 {
+    text-align: center;
+}
 .nav_text {
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
 }
 .img_size {
 }
@@ -42,4 +45,37 @@ body {
     background-size: 100%;
     width: 367px;
     height: 189px;
+}
+
+.button_js {
+    text-align: center;
+}
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(163, 12, 12);
+    color: aliceblue;
+    font-weight: bold;
+}
+#demo img {
+    width: 25%;
+}
+
+#form {
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+#head { 
+    line-height: 45px;
+    width: 1500px;
+}
+#head1 {
+    line-height: 45px;
+    width: 1500px;
+}
+.col-15 {
+    text-align: center;
+
 }
